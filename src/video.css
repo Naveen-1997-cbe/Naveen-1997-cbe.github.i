@@ -1,0 +1,72 @@
+.bg-yellow {
+    background: rgba(255, 228, 52, 1);
+    height: 100vh;
+}
+
+.user-video {
+    background: black;
+    height: 75vh;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.my-video {
+    background: black ;
+    height: 35vh;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.bg-button {
+    background: rgba(36, 36, 36, 1);
+    height: 15vh;
+    border-radius: 0.5rem;
+}
+
+.bg-chat {
+    position: absolute;
+    top: 16rem;
+    left: 52.8rem;
+    background: rgba(36, 36, 36, 1);
+    height: 54.5vh;
+    border-radius: 0.5rem;
+}
+
+.bg-btn {
+    background: rgba(255, 42, 88, 1);
+    width: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.bg-gray {
+    width: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+
+}
+
+.sub-name {
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+.space {
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+
+.call {
+    background: rgba(255, 42, 88, 1);
+    border-radius: 0.5rem;
+    border: none;
+    width: 8rem !important;
+    height: 3.2rem;
+}
+
+.chat-name {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
