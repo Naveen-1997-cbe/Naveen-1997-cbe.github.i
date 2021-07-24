@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/videoCallApp/static/css/main.2d3b2269.chunk.css",
+    "main.js": "/videoCallApp/static/js/main.f442c769.chunk.js",
+    "main.js.map": "/videoCallApp/static/js/main.f442c769.chunk.js.map",
+    "runtime-main.js": "/videoCallApp/static/js/runtime-main.e080e8d6.js",
+    "runtime-main.js.map": "/videoCallApp/static/js/runtime-main.e080e8d6.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/videoCallApp/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.80d2da78.chunk.js": "/videoCallApp/static/js/2.80d2da78.chunk.js",
+    "static/js/2.80d2da78.chunk.js.map": "/videoCallApp/static/js/2.80d2da78.chunk.js.map",
+    "static/js/3.3a95f5ae.chunk.js": "/videoCallApp/static/js/3.3a95f5ae.chunk.js",
+    "static/js/3.3a95f5ae.chunk.js.map": "/videoCallApp/static/js/3.3a95f5ae.chunk.js.map",
+    "index.html": "/videoCallApp/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/videoCallApp/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.2d3b2269.chunk.css.map": "/videoCallApp/static/css/main.2d3b2269.chunk.css.map",
+    "static/js/2.80d2da78.chunk.js.LICENSE.txt": "/videoCallApp/static/js/2.80d2da78.chunk.js.LICENSE.txt",
+    "static/media/attach.b6a98fd7.svg": "/videoCallApp/static/media/attach.b6a98fd7.svg",
+    "static/media/call.6a0fa408.svg": "/videoCallApp/static/media/call.6a0fa408.svg",
+    "static/media/camera-off.4bc3f4c6.svg": "/videoCallApp/static/media/camera-off.4bc3f4c6.svg",
+    "static/media/camera-on.b09158eb.svg": "/videoCallApp/static/media/camera-on.b09158eb.svg",
+    "static/media/chat-btn.37f4cac4.svg": "/videoCallApp/static/media/chat-btn.37f4cac4.svg",
+    "static/media/hand.dfef1302.svg": "/videoCallApp/static/media/hand.dfef1302.svg",
+    "static/media/mic-off.dcc8afac.svg": "/videoCallApp/static/media/mic-off.dcc8afac.svg",
+    "static/media/mic-on.fa80c6cb.svg": "/videoCallApp/static/media/mic-on.fa80c6cb.svg",
+    "static/media/record.552c8b0f.svg": "/videoCallApp/static/media/record.552c8b0f.svg",
+    "static/media/screen-share.e1c5e241.svg": "/videoCallApp/static/media/screen-share.e1c5e241.svg",
+    "static/media/send.1a5fe5d4.svg": "/videoCallApp/static/media/send.1a5fe5d4.svg",
+    "static/media/volume.549b853d.svg": "/videoCallApp/static/media/volume.549b853d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e080e8d6.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.80d2da78.chunk.js",
+    "static/css/main.2d3b2269.chunk.css",
+    "static/js/main.f442c769.chunk.js"
+  ]
+}
