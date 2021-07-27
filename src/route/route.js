@@ -9,7 +9,7 @@ function Routing() {
         <div>
             <Router>
               <Switch>
-                <Route path="/videoCallApp" exact component={CreateRoom} />
+                <Route path="/" exact component={CreateRoom} />
                 <Route path="/room/:roomID" component={VideoClass} />
               </Switch>
             </Router>   
