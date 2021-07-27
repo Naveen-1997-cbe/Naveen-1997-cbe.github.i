@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Peer from "simple-peer";
 import io from "socket.io-client";
-
 import "./video.css";
 import { Button, Form, Modal } from "react-bootstrap";
 import chatBtn from "../assets/chat-btn.svg";
@@ -209,7 +208,6 @@ const App = (props) => {
     });
 
     connectionRef.current = peer;
-    // peer.on("data", handleReceivingData);
     setGotFile(true);
     setPeerConn(connectionRef.current._pc.getSenders());
     console.log("Callername", callerName);
