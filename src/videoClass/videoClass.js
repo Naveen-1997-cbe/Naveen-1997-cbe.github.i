@@ -20,8 +20,8 @@ import { useHistory } from "react-router";
 // import streamSaver from "streamsaver";
 import Downloadjs from "downloadjs";
 
-//  const socket = io.connect('https://bro-video-call.herokuapp.com/');
-const socket = io.connect("http://localhost:5000");
+ const socket = io.connect('https://naveenvideocall.herokuapp.com/');
+// const socket = io.connect("http://localhost:5000");
 
 const App = (props) => {
   const [me, setMe] = useState("");
