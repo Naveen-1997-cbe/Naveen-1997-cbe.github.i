@@ -1,17 +1,10 @@
 import React from "react";
-import { v1 as uuid } from "uuid";
-import { Button } from "react-bootstrap";
-
-const CreateRoom = (props) => {
-    function create() {
-        const id = uuid();
-        props.history.push(`/room/${id}`);
-    }
-
+const CreateRoom = () => {
     return (
         <div className="text-center mt-5">
-            <h3>Click below button to join class</h3>
-            <Button variant="danger" onClick={create}>Join Class Room</Button>
+            <h3>Feedback</h3>
+            <p>Please send your feedback about this project at <span style={{color:"red"}}>naveen.ndr97@gmail.com</span> </p>
+            <p>Thank You</p>
         </div>
     );
 }

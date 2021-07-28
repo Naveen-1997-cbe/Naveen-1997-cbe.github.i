@@ -9,8 +9,8 @@ function Routing() {
         <div>
             <Router>
               <Switch>
-                <Route path="/" exact component={CreateRoom} />
-                <Route path="/room/:roomID" component={VideoClass} />
+                <Route exact path="/" component={VideoClass} />
+                <Route exact path="/feedback"  component={CreateRoom} />
               </Switch>
             </Router>   
         </div>

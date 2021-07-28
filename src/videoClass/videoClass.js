@@ -20,8 +20,8 @@ import { useHistory } from "react-router";
 // import streamSaver from "streamsaver";
 import Downloadjs from "downloadjs";
 
- const socket = io.connect('https://naveenvideocall.herokuapp.com/');
-// const socket = io.connect("http://localhost:5000");
+//  const socket = io.connect('https://naveenvideocall.herokuapp.com/');
+const socket = io.connect("http://localhost:5000");
 
 const App = (props) => {
   const [me, setMe] = useState("");
@@ -58,7 +58,6 @@ const App = (props) => {
   const userVideo = useRef();
   const connectionRef = useRef();
   const demoRef = useRef();
-  const RoomID = props.match.params.roomID;
   const history = useHistory();
   const shareRef = useRef();
 
@@ -80,7 +79,6 @@ const App = (props) => {
       setMe(id);
     });
 
-    socket.emit("join-room", RoomID);
 
     socket.on("USer Connected", (msg) => {
       console.log("connected ", msg);
@@ -122,7 +120,7 @@ const App = (props) => {
     socket.on("endCallRoute", (value) => {
       console.log("value", value);
       if (value) {
-        history.push("/");
+        history.push("/feedback");
       }
     });
 
@@ -423,7 +421,7 @@ const App = (props) => {
     socket.on('endCallRoute', (value) => {
     	console.log('value', value)
     	if (value) {
-    		history.push('/');
+    		history.push('/feedback');
     	}
     })
   };
